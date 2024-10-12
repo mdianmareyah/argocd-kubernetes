@@ -1,4 +1,0 @@
-resources:
-  - mysql-deployment.yaml
-  - wordpress-deployment.yaml
-  - wordpress-hpa.yaml
