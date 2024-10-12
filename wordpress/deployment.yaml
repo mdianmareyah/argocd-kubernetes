@@ -22,17 +22,3 @@ spec:
             - containerPort: 8080
       imagePullSecrets:
         - name: dockerhub-secret
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: my-app-deployment
-  namespace: deploymail
-  labels:
-    app: sendmail
-spec:
-  type: LoadBalancer
-  selector:
-    app: sendmail
-  ports:
-    - port: 8080
