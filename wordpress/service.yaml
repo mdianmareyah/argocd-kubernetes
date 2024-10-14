@@ -6,7 +6,7 @@ metadata:
   labels:
     app: sendmail
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: sendmail
   ports:
