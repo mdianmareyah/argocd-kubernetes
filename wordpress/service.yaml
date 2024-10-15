@@ -10,4 +10,4 @@ spec:
   selector:
     app: sendmail
   ports:
-    - port: 8080
+    - port: 8081
